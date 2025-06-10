@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>  
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Slider</title>
+</head>
+<body>
+    <div class="slider-page">
+        <nav class="navbar">
+            <div class="left">
+                <h1 class="logo">Slider<span class="X">X</span></h1>
+            </div>
+            <div class="right">
+                <button class="menu"><i class="fa-solid fa-bars icon" id="menuIcon"></i></button>
+                <ul type="none" class="nav-links" id="navLinks">
+                    <li class="nav-item">Home</li><hr>
+                    <li class="nav-item">Blog</li><hr>
+                    <li class="nav-item">Info</li><hr>
+                    <li class="nav-item highlight">Sign up</li>
+                </ul>
+            </div>
+        </nav>
+        <div class="slider" id="slider">
+            <div class="slider-inner-container">
+            <div class="content" id="content">
+                <small id="small">SLIDERX</small>
+                <h1 class="slider-head" id="slider-head">Slider 01</h1>
+                <p id="medium">This is a slider image</p>
+            </div>
+            <div class="list">
+                <div class="arrow"><i class="fa-solid fa-square-caret-left arrow-icon" id="arrowIcon1"></i></div>
+                <div class="item active" id="item1">
+                    <img class="item-img" src="Images/img1_thumbnail.jpg">
+                    <p>Slider 01</p>
+                </div>
+                <div class="item" id="item2">
+                    <img class="item-img" src="Images/img2_thumbnail.jpg">
+                    <p>Slider 02</p>
+                </div>
+                <div class="item" id="item3">
+                    <img class="item-img" src="Images/img3_thumbnail.jpg">
+                    <p>Slider 03</p>
+                </div>
+                <div class="item" id="item4">
+                    <img class="item-img" src="Images/img4_thumbnail.jpg">
+                    <p>Slider 04</p>
+                </div>
+                <div class="item" id="item5">
+                    <img class="item-img" src="Images/img5_thumbnail.jpg">
+                    <p>Slider 05</p>
+                </div>
+                <div class="arrow"><i class="fa-solid fa-square-caret-right arrow-icon" id="arrowIcon2"></i></div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
